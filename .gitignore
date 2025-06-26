@@ -1,0 +1,36 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.tmp
+*.swp
+
+# Node
+node_modules/
+npm-debug.log
+
+# Composer
+vendor/
+composer.lock
+
+# WordPress (общие папки и мусор)
+wp-admin/
+wp-includes/
+wp-config.php
+wp-content/plugins/
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Исключаем всё, кроме своей темы
+wp-content/themes/*
+!wp-content/themes/gp-test-theme/
+
+# ACF JSON (если используешь — оставить)
+#acf-json/
+
+# Env
+.env
+.env.*
+.env.local
